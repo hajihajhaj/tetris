@@ -1,0 +1,14 @@
+**The reasoning behind the piece’s design.**
+
+My custom polyomino piece is asymmetrical, which makes it a lot more challenging and fun to work with. It’s not like the standard pieces that you can just drop anywhere, you actually have to think about how to rotate it and where it can fit. Its shape doesn’t naturally fill most spaces, so it forces players to plan ahead and get creative. What makes it interesting is how the asymmetrical edges can either help you fill tricky gaps or mess things up if placed wrong. My piece is facing left, so rotating it left lets it fit into the protruding parts of the map. But if you rotate it right, you’re left with a flat edge that won’t fit as easily. The piece changes its shape and functionality depending on how you turn it, which adds variety and keeps things fresh.
+
+**How the custom gameplay experience demonstrates the piece’s potential.**
+
+The time trial mode was key in showcasing how this piece changes gameplay.
+This piece adds a new layer of difficulty to Tetris. Instead of the usual “clear lines as fast as possible” approach, players now have to rethink how they stack pieces, especially in time trial mode where efficiency and adaptability are crucial. The challenge is in mastering its rotations and knowing when to use it to your advantage within the time limit. Since it behaves differently depending on how it’s rotated, it keeps the game engaging and forces players to adapt under pressure. It’s not just about speed anymore, it’s about strategy, quick thinking, and precision. The time trial mode highlights this by making players think fast while still planning ahead, reinforcing the importance of adaptability in real gameplay scenarios.
+
+**Challenges faced during implementation and how they were addressed.**
+
+One of the biggest challenges was losing all my progress when trying to upload the project to GitHub. Somehow, all my work vanished, and I had to ask a friend to help me get all caught up. It was frustrating, but it taught me the importance of keeping backups.
+Another issue was handling board states. At first, I wanted to create a special setup where the board had pre-filled sections to test the new piece, but that caused weird bugs. Pieces were going through obstacles, and at one point, the entire board moved as if it were a falling piece. I eventually scrapped that idea and switched to a time trial mode instead. This let me see how the piece performed in real gameplay without dealing with broken mechanics.
+Through this process, I learned a lot about how to handle unexpected issues in game development. Despite the setbacks, the time trial mode turned out to be a great way to test the piece’s impact on gameplay. It made me realize that sometimes, keeping things simple is the best way to get something working properly.
